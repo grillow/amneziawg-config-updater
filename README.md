@@ -3,15 +3,7 @@
 ## Как использовать
 
 ### Требования к конфигурационному файлу Amnezia/WireGuard
-Добавить следующие строчки в раздел ```[Peer]``` конфигурационного файла:
-```shell
-# Discord
-AllowedIPs = <something>
-# Discord Voice
-AllowedIPs = <something>
-# YouTube
-AllowedIPs = <something>
-```
+Добавить нужные строчки в раздел ```[Peer]``` конфигурационного файла.
 
 Пример ```/etc/wireguard/client.conf```:
 ```
@@ -27,6 +19,8 @@ AllowedIPs = 10.0.13.0/24
 # Discord Voice
 AllowedIPs = 10.0.13.0/24
 # YouTube
+AllowedIPs = 10.0.13.0/24
+# 2ch
 AllowedIPs = 10.0.13.0/24
 ```
 
